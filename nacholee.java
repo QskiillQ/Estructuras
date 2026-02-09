@@ -10,23 +10,8 @@ public class nacholee {
         System.out.println("ingrese su segundo numero");
         n2=leer.nextInt();
         System.out.println("la suma de los numeros es= "+ (n1+n2));
-        /*Resta de los dos numeros */
-        System.out.println("ingrese el primer numero");
-        n1=leer.nextInt();
-        System.out.println("ingrese su segundo numero");
-        n2=leer.nextInt();
-        System.out.println("la suma de los numeros es= "+ (n1-n2));
-        /*Multiplicacion */
-        System.out.println("ingrese el primer numero");
-        n1=leer.nextInt();
-        System.out.println("ingrese su segundo numero");
-        n2=leer.nextInt();
-        System.out.println("la suma de los numeros es= "+ (n1*n2));
-        /*Dvision */
-        System.out.println("ingrese el primer numero");
-        n1=leer.nextInt();
-        System.out.println("ingrese su segundo numero");
-        n2=leer.nextInt();
-        System.out.println("la suma de los numeros es= "+ (n1/n2));
+    }
+    public static int sumaNumeros(int n1, int n2){
+        return n1+n2;
     }
 }
